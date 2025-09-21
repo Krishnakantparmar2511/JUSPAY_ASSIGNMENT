@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: #1C1C1C;
+}
+
+.dark * {
+  color-scheme: dark;
+}
+
+/* Image inversion for dark mode */
+.dark img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Specific image exceptions - keep certain images normal */
+.dark img[src*="chart"], 
+.dark img[src*="graph"], 
+.dark img[src*="map"],
+.dark img[src*="world"],
+.dark img[src*="donut"] {
+  filter: none;
+}
+
+/* Dark mode color overrides */
+.dark .bg-primary-light {
+  background-color: #2A2A2A !important;
+}
+
+.dark .bg-primary-blue {
+  background-color: #1E3A5F !important;
+}
+
+.dark .bg-primary-purple {
+  background-color: #2A2F3A !important;
+}
+
+.dark .text-primary-black {
+  color: #E5E5E5 !important;
+}
+
+.dark .border-gray-100 {
+  border-color: #404040 !important;
+}
+
+/* Ensure smooth transitions for dark mode */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, filter 0.3s ease;
+}
+
