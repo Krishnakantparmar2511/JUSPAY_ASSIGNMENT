@@ -1,6 +1,4 @@
-/**
- * Dashboard-specific interfaces and types
- */
+
 
 
 export interface Product {

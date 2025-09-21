@@ -3,9 +3,7 @@ import { motion } from 'framer-motion'
 import { cn } from '@/utils/cn'
 import { InputProps } from '@/types'
 
-/**
- * Input component with label, error states, and animations
- */
+
 export const Input = forwardRef<HTMLInputElement, InputProps>(
   (
     {

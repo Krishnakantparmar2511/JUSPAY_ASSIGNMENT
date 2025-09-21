@@ -3,10 +3,7 @@ import { motion } from 'framer-motion'
 import { cn } from '@/utils/cn'
 import { ButtonProps } from '@/types'
 
-/**
- * Button component with multiple variants and sizes
- * Supports loading state and animations
- */
+
 export const Button: React.FC<ButtonProps> = ({
   children,
   className,

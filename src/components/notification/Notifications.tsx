@@ -1,7 +1,7 @@
 
 import { useLayout } from "@/hooks/useLayout";
 import { motion } from "framer-motion";
-import { X, Bug, User, Users } from "lucide-react";
+import { X} from "lucide-react";
 import { activitiesData, contactsData, notificationsData } from "./mockData";
 
 

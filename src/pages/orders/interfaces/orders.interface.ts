@@ -1,6 +1,4 @@
-/**
- * Orders-specific interfaces and types
- */
+
 
 export interface Order {
   id: string;

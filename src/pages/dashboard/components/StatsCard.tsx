@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { TrendingUp, TrendingDown, ArrowUpRight, ArrowDownRight } from 'lucide-react'
+import {  ArrowUpRight, ArrowDownRight } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/Card'
 import { cn } from '@/utils/cn'
 
@@ -17,9 +17,6 @@ interface StatsCardProps {
   loading?: boolean
 }
 
-/**
- * Stats card component with trend indicators and animations
- */
 export const StatsCard: React.FC<StatsCardProps> = ({
   title,
   value,

@@ -48,36 +48,7 @@ export const LineChartAndRevenueMap=()=>{
       { city: "Sydney", value: "25K" },
       { city: "Singapore", value: "61K" },
     ];
-  const sampleLocations: LocationDataNEW[] = [
-    { 
-      id: 1, 
-      name: "San Francisco", 
-      coordinates: [-122.4194, 37.7749], 
-      value: "245 active users",
-      color: "#1f2937"
-    },
-    { 
-      id: 2, 
-      name: "New York", 
-      coordinates: [-74.0060, 40.7128], 
-      value: "523 active users",
-      color: "#1f2937"
-    },
-    { 
-      id: 3, 
-      name: "Mumbai", 
-      coordinates: [72.8777, 19.0760], 
-      value: "189 active users",
-      color: "#1f2937"
-    },
-    { 
-      id: 4, 
-      name: "Sydney", 
-      coordinates: [151.2093, -33.8688], 
-      value: "67 active users",
-      color: "#1f2937"
-    }
-  ];
+
     const formatYAxisTick = (value: any) => {
       if (value === 0) return "0";
       return `${value}M`;

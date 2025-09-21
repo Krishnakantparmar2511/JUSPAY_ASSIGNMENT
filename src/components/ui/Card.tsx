@@ -9,9 +9,7 @@ interface CardProps extends BaseComponentProps {
   onClick?: () => void
 }
 
-/**
- * Card component with hover effects and animations
- */
+
 export const Card: React.FC<CardProps> = ({
   children,
   className,
