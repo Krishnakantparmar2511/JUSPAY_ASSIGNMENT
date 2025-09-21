@@ -22,13 +22,6 @@ interface ChartDataPoint {
   current?: number;
   previous?: number;
 }
-interface LocationDataNEW {
-  id: number;
-  name: string;
-  coordinates: [number, number];
-  value: string;
-  color?: string;
-}
 
 
 export const LineChartAndRevenueMap=()=>{

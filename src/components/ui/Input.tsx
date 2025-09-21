@@ -28,12 +28,12 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
   ) => {
     const [focused, setFocused] = React.useState(false)
 
-    const handleFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    const handleFocus = () => {
       setFocused(true)
       onFocus?.()
     }
 
-    const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+    const handleBlur = () => {
       setFocused(false)
       onBlur?.()
     }

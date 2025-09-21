@@ -195,7 +195,7 @@ export const Orders: React.FC = () => {
                   isDarkMode ? " divide-gray-600" : "bg-white divide-gray-200"
                 }`}
               >
-                {paginatedOrders.map((order, index) => (
+                {paginatedOrders.map((order) => (
                   <tr
                     key={order.id}
                     className={`transition-colors ${
